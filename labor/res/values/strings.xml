@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LaborpainsActivity!</string>
+    <string name="app_name">Laborpains</string>
+    <string name="start_labor">陣痛継続時間</string>
+    <string name="end_labor">前回陣痛開始からの経過時間</string>
+    <string name="wait_labor">----</string>
+
+    <string name="account_label">Laborアカウント</string>
+    
+	<string name="menu_appreferences">設定</string>
+    
+	<string name="account_preference">Googleアカウント設定</string>
+    <string name="pref_login_id">ログインID</string>
+    <string name="pref_login_id_summary">ログインIDを入力</string>
+    <string name="pref_login_password">パスワード</string>
+    <string name="pref_login_password_summary">パスワードを入力</string>
+        
+    <string name="contact_preference">連絡先設定</string>
+    <string name="call_hospital">病院電話番号</string>
+    <string name="call_hospital_summary">病院の電話番号を入力</string>
+    <string name="call_taxi">タクシー会社電話番号</string>
+    <string name="call_taxi_summary">タクシー会社の電話番号を入力</string>
+    <string name="call_family">家族電話番号</string>
+    <string name="call_family_summary">家族の電話番号を入力</string>
+    <string name="mail_family">家族メールアドレス</string>
+	<string name="mail_family_summary">家族のメールアドレスを入力</string>
+    
+	<string name="expected_date_preference">出産予定日設定</string>
+    <string name="expected_date">予定日</string>
+    <string name="expected_date_summary">出産予定日を入力</string>
+	
+    
+    <string name="pref_update_freq">更新頻度</string>
+    <string name="pref_update_freq_summary">位置情報の更新頻度を設定</string>
+    <string name="pref_server_url">サーバーURL</string>
+    <string name="pref_server_url_summary">送信先サーバのURLを入力</string>
+    <string name="call_to_hospital">病院に電話をかける</string>
+    <string name="call_to_taxi">タクシー会社に電話をかける</string>
+    <string name="call_to_family">家族に電話をかける</string>
+    <string name="mail_to_family">家族にメールを送る</string>
+    
+    
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- (1) -->
+	<item
+		android:state_checked="true"
+		android:state_pressed="true"
+		android:drawableTop="@drawable/ic_labor_stop" />
+	<!-- (2) -->
+	<item
+		android:state_checked="true"
+		android:drawableTop="@drawable/ic_labor_stop" />
+	<!-- (3) -->
+	<item
+		android:state_checked="false"
+		android:state_pressed="true"
+		android:drawableTop="@drawable/ic_labor_stop_disable" />
+	<!-- (4) -->
+	<item
+		android:state_checked="false"
+		android:drawableTop="@drawable/ic_labor_stop_disable" />
+
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <sync-adapter
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:accountType="com.google"
+        android:contentAuthority="com.naro.android.labor"
+        android:supportsUploading="true" >
+    </sync-adapter>
+
+</resources>

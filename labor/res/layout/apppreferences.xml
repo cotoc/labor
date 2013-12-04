@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" >
+
+    <PreferenceCategory android:title="@string/expected_date_preference" >
+        <com.mayu.android.labor.DatePickerPreference
+            android:key="expected_date"
+            android:summary="@string/expected_date_summary"
+            android:title="@string/expected_date"
+            />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/account_preference" >
+        <com.mayu.android.labor.AccountPreference
+            android:key="user_id"
+            android:maxLength="100"
+            android:summary="@string/pref_login_id_summary"
+            android:title="@string/pref_login_id"
+            android:inputType="text"  />
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/account_preference" >
+        <EditTextPreference
+            android:key="login_id"
+            android:maxLength="100"
+            android:summary="@string/pref_login_id_summary"
+            android:title="@string/pref_login_id"
+            android:inputType="text"  />
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="password"
+            android:summary="@string/pref_login_password_summary"
+            android:title="@string/pref_login_password"
+            />
+    </PreferenceCategory>  
+      
+    <PreferenceCategory android:title="@string/contact_preference" >
+        <EditTextPreference
+            android:key="contact_hospital"
+            android:summary="@string/call_hospital_summary"
+            android:title="@string/call_hospital"
+            android:inputType="phone" />
+        <EditTextPreference
+            android:key="contact_taxi"
+            android:summary="@string/call_taxi_summary"
+            android:title="@string/call_taxi"
+            android:inputType="phone" />
+        <EditTextPreference
+            android:key="call_family"
+            android:summary="@string/call_family_summary"
+            android:title="@string/call_family"
+            android:inputType="phone" />
+        <EditTextPreference
+            android:key="mail_family"
+            android:summary="@string/mail_family_summary"
+            android:title="@string/mail_family"
+            android:inputType="textEmailAddress" />        
+        
+    </PreferenceCategory>
+    
+    
+</PreferenceScreen>
